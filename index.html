@@ -1,0 +1,79 @@
+<!-- DOGTYPE는 어떤타입으로 이 문서가 작성되었는지 브라우져에게 알려주는 선언문 -->
+<!DOCTYPE html>
+<!-- html요소는 최상단 요소로써 lang는 어떤언어를 썻는지를 기재한다. 한글문서의 경우 ko이다 -->
+<html lang="en">
+  <!-- head의 경우 body를 해석하기전 필수적으로 알아야할 내용이 담겨있다 -->
+  <head>
+    <!-- 문자 집합(정보를 표현하기위한 글자, 기호를 정의한 것) 및 인코딩(이를 컴퓨터에서 사용하기 위한 부호화 작업) 관련 -->
+    <meta charset="UTF-8" />
+    <!-- 반응형 웹사이트를 만들때 사용해야 하는 것 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 웹페이지의 전체이름 -->
+    <title>The Web framework for perfectionists with deadlines | Django</title>
+    <!-- rel : html문서와 연결할 파일의 관계를 알려주는 것이고, href : 파일의 위치로 알려준다 -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">
+          <!-- <img
+            src="https://static.djangoproject.com/img/logo-django.42234b631760.svg"
+            alt="Django"
+          /> -->
+          <a href="https://aws.amazon.com/ko/ec2/"
+            ><img src="aws.png" alt="aws" width="130" height="60" />
+          </a>
+          <a href="https://www.google.com"
+            ><img src="google.png" alt="google" width="130" height="60" />
+          </a>
+        </h1>
+        <nav class="nav">
+          <ul class="list">
+            <li class="list-item"><a href="*">OVERVIEW</a></li>
+            <li class="list-item"><a href="*">DOWNLOAD</a></li>
+            <li class="list-item"><a href="*">DOCUMENTATION</a></li>
+            <li class="list-item"><a href="*">NEWS</a></li>
+            <li class="list-item"><a href="*">COMMUNITY</a></li>
+            <li class="list-item"><a href="*">CODE</a></li>
+            <li class="list-item"><a href="*">ABOUT</a></li>
+            <li class="list-item"><a href="*">♥DONATE</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="hero-section">
+        <div class="container">
+          <p class="intro-desc">
+            Django makes it easier to build better Web apps more quickly and
+            with less code.
+          </p>
+          <a href="#" class="cta">
+            Get started with Django
+          </a>
+        </div>
+      </div>
+      <div class="container-float">
+        <div class="first-content">
+          <p class="content">first content</p>
+        </div>
+        <div class="second-content">
+          <p class="content">second content</p>
+        </div>
+        <div class="last-content">
+          <p class="content">last content</p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>yeongwoo_Cho</p>
+      <p>GitHub : jyy0223@naver.com</p>
+    </footer>
+  </body>
+</html>
